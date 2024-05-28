@@ -5,49 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Projects</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="app/style.css">
+    <title>Blog Projects</title>
 </head>
 
 <body>
     <!-- Header Section -->
-    <nav>
-
-        <div class="logo">
-            <a href="#">TGR</a>
-        </div>
-
-        <ul class="nav-links">
-            <li><a href="#home-section">Home</a></li>
-            <li><a href="#about-section">About me</a></li>
-            <li><a href="#archives">Archives</a></li>
-            <li><a href="#blog-posts">Blog Posts</a></li>
-            <li><a href="#contact-section">Contact</a></li>
-        </ul>
-
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
-
-    </nav>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Gilani.</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Skill</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
     <!-- Header Section -->
 
-    <main>
 
+
+    <!-- Main Section -->
+    <main>
         <!-- Home Section -->
         <section id="home-section">
-
             <article>
-                <h1 class="home-title">Web Development</h1>
+                <h1 class="home-title">Toufiq Gilani Rabbu</h1>
+                <h2 class="home-post">Web Development</h2>
                 <p class="home-desc">
                     I believe Web development is always fun. We should learn web
                     development for a bright career. I have started learning web
@@ -56,21 +58,18 @@
                     development demands more patience and consistency.
                 </p>
             </article>
-
             <aside>
-                <img src="img/cover-photo.jpg" alt="Cover Photo" class="home-img">
+                <img loading="lazy" src="img/cover-photo.jpg" class="home-img" alt="Image">
             </aside>
-
         </section>
         <!-- Home Section -->
 
-        <!-- About Me Section -->
+
+
+        <!-- About Section -->
         <section id="about-section" class="section-center">
-
-            <h2 class="section-title text-white">About Me</h2>
-
+            <h2 class="section-title">About Me</h2>
             <div class="card-container">
-
                 <div class="card">
                     <h3 class="card-title">Experience</h3>
                     <p class="card-desc">
@@ -81,7 +80,6 @@
                     </p>
                     <button type="submit" class="card-btn btn">Read More</button>
                 </div>
-
                 <div class="card">
                     <h3 class="card-title">Career</h3>
                     <p class="card-desc">
@@ -92,7 +90,6 @@
                     </p>
                     <button type="submit" class="card-btn btn">Read More</button>
                 </div>
-
                 <div class="card">
                     <h3 class="card-title">Education</h3>
                     <p class="card-desc">
@@ -103,53 +100,46 @@
                     </p>
                     <button type="submit" class="card-btn btn">Read More</button>
                 </div>
-
             </div>
-
         </section>
-        <!-- About Me Section -->
+        <!-- About Section -->
+
+
 
         <!-- Archives Section -->
         <section id="archives" class="section-center">
-
             <h2 class="section-title">Archives</h2>
-
             <div class="archives-container">
-
                 <ul class="archives-list">
                     <li class="archives-item">
-                        <img src="img/img-01.jpg" alt="Archives Image" class="archives-img">
+                        <img loading="lazy" src="img/img-01.jpg" class="archives-img" alt="Image">
                     </li>
                     <li class="archives-item">
-                        <img src="img/img-02.jpg" alt="Archives Image" class="archives-img">
+                        <img loading="lazy" src="img/img-02.jpg" class="archives-img" alt="Image">
                     </li>
                     <li class="archives-item">
-                        <img src="img/img-01.jpg" alt="Archives Image" class="archives-img">
+                        <img loading="lazy" src="img/img-01.jpg" class="archives-img" alt="Image">
                     </li>
                     <li class="archives-item">
-                        <img src="img/img-02.jpg" alt="Archives Image" class="archives-img">
+                        <img loading="lazy" src="img/img-02.jpg" class="archives-img" alt="Image">
                     </li>
                     <li class="archives-item">
-                        <img src="img/img-01.jpg" alt="Archives Image" class="archives-img">
+                        <img loading="lazy" src="img/img-01.jpg" class="archives-img" alt="Image">
                     </li>
                 </ul>
-
             </div>
-
         </section>
         <!-- Archives Section -->
 
+
+
         <!-- Blog Posts -->
         <section id="blog-posts" class="section-center">
-
             <h2 class="section-title blog-posts-title">Blog Posts</h2>
-
             <div class="blog-post">
-
                 <aside class="blog-post-aside">
-                    <img src="img/img-02.jpg" alt="Blog Image" class="blog-post-img">
+                    <img loading="lazy" src="img/img-02.jpg" class="blog-post-img" alt="Image">
                 </aside>
-
                 <article class="blog-content">
                     <h2 class="blog-heading">Blog 1</h2>
                     <h3 class="blog-sub-heading">Sub heading</h3>
@@ -161,15 +151,11 @@
                     </p>
                     <button type="submit" class="blog-btn btn">Learn More</button>
                 </article>
-
             </div>
-
             <div class="blog-post">
-
                 <aside class="blog-post-aside">
-                    <img src="img/img-02.jpg" alt="Blog Image" class="blog-post-img">
+                    <img loading="lazy" src="img/img-02.jpg" class="blog-post-img" alt="Image">
                 </aside>
-
                 <article class="blog-content">
                     <h2 class="blog-heading">Blog 1</h2>
                     <h3 class="blog-sub-heading">Sub heading</h3>
@@ -181,15 +167,11 @@
                     </p>
                     <button type="submit" class="blog-btn btn">Learn More</button>
                 </article>
-
             </div>
-
             <div class="blog-post">
-
                 <aside class="blog-post-aside">
-                    <img src="img/img-02.jpg" alt="Blog Image" class="blog-post-img">
+                    <img loading="lazy" src="img/img-02.jpg" class="blog-post-img" alt="Image">
                 </aside>
-
                 <article class="blog-content">
                     <h2 class="blog-heading">Blog 1</h2>
                     <h3 class="blog-sub-heading">Sub heading</h3>
@@ -201,19 +183,16 @@
                     </p>
                     <button type="submit" class="blog-btn btn">Learn More</button>
                 </article>
-
             </div>
-
         </section>
         <!-- Blog Posts -->
 
-        <!-- Contact Me Section -->
+
+
+        <!-- Contact Section -->
         <section id="contact-section" class="section-center">
-
-            <h2 class="section-title blog-posts-title text-white">Contact Me</h2>
-
+            <h2 class="section-title blog-posts-title">Contact Me</h2>
             <form action="#" id="contact-form">
-
                 <div class="form-control">
                     <label for="name">Name</label>
                     <input type="text" id="name" autocomplete="name" required>
@@ -229,21 +208,19 @@
                 <div class="form-control form-btn">
                     <button type="button" class="contact-btn btn">Submit</button>
                 </div>
-
             </form>
-
         </section>
-        <!-- Contact Me Section -->
-
+        <!-- Contact Section -->
     </main>
+    <!-- Main Section -->
+
+
 
     <!-- Footer Section -->
     <footer>
-
         <p class="copyright-text">
-            Copyright &copy; 2023 Toufiq Gilani. All rights reserved.
+            Copyright &copy; 2024 Gilani Rabbu. All rights reserved.
         </p>
-
         <div class="icon">
             <a href="#">
                 <i class="fab fa-facebook footer-icon"></i>
@@ -258,7 +235,6 @@
                 <i class="fab fa-linkedin footer-icon"></i>
             </a>
         </div>
-
     </footer>
     <!-- Footer Section -->
 
